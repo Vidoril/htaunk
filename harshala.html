@@ -28,6 +28,420 @@ background: black;
 ::-webkit-scrollbar-thumb:hover {
   background: white; 
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+background: black;
+}
+#menubar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    padding: 3% 5% 4% 42%;
+    display: flex;
+    background-color:  black;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.a1{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a1::after{
+    content:'';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    left: 660px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: transform 0.3s;
+}
+.a1:hover::after{
+    transform: scaleX(2);
+}
+
+
+.a2{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.a2::after{
+    content:'';
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    left: 754px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a2:hover::after{
+    transform: scaleX(2);
+}
+.a3{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.a3::after{
+    content:'';
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 656px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a3:hover::after{
+    transform: scaleX(2);
+}
+.a4{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a4::after{
+    content:'';
+    width: 13px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 540px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a4:hover::after{
+    transform: scaleX(2);
+}
+.a5{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a5::after{
+    content:'';
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 405px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a5:hover::after{
+    transform: scaleX(2);
+}
+.a6{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a6::after{
+    content:'';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 280px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a6:hover::after{
+    transform: scaleX(2);
+}
+.a7{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a7::after{
+    content:'';
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 193px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a7:hover::after{
+    transform: scaleX(2);
+}
+
+.a8{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.a8::after{
+    content:'';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    bottom: 32px;
+    right: 98px;
+    transform: scaleX(0);
+    background: #fff;
+    transition: 0.3s;
+
+}
+.a8:hover::after{
+    transform: scaleX(2);
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+#logo{
+    position: absolute;
+    top: 10%;
+    letter-spacing: 10px;
+   right: 76%;
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 65px;
+   line-height: 90px;
+   color: white;
+   -webkit-user-select: none;
+   user-select: none;
+}
+#Introduction{
+    font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 350%;
+    position: absolute;
+    top: 38%;
+    left: 6.7%;
+}
+#head2{
+    position: absolute;
+    color: #fff;
+    font-family: 'Poppins', sans-serif; 
+    left:42%;
+    top:90%;
+    font-size: 45px;
+}
+#info2{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 20px;
+    top: 128%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+img{
+    position: absolute;
+    width: 30%;
+    top: 132%;
+    left: 5%;
+}
+#red{
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 65%;
+}
+#head3{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:176%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#info3{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 25px;
+    top: 215%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#head4{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:276%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#info4{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 25px;
+    top: 315%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#head5{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:377%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#info5{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 25px;
+    top: 415%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#head6{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:476%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#info6{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 25px;
+    top: 515%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#head7{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:575%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#info7{
+    color:#fff;
+    position: absolute;
+    left:40%;
+    padding: 25px;
+    top: 615%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#head8{
+    position: absolute ;
+    color:#fff;
+   left:42%;
+   top:690%;
+   padding-bottom: 30%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+}
+#books{
+    position: absolute;
+    width: 30%;
+    top: 220%;
+    left: 5%;
+}
+#Certificates{
+ position: absolute;
+    width: 30%;
+    top: 320%;
+    left: 5%;
+}
+#workexperience{
+    position: absolute;
+       width: 22%;
+       top: 420%;
+       left: 10%;
+   }
+   #skills{
+    position: absolute;
+       width: 30%;
+       top: 520%;
+       left: 5%;
+   }
+   #Projects{
+    position: absolute;
+       width: 30%;
+       top: 620%;
+       left: 5%;
+   }
+#insta{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 705%;
+    left: 46.5%;
+}
+#insta1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 657%;
+    left: 45%;
+}
+#reddit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 705%;
+    left: 43.5%;
+}
+#reddit1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 656.86%;
+    left: 36%;
+}
+#twitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 705%;
+    left: 43.5%;
+}
+#twitter1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 656.86%;
+    left: 55%;
+}
+#typewriter{
+color: rgb(0, 191, 255);
+}
+
 </style>
 </head>
 <body>
